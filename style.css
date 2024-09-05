@@ -1,0 +1,76 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global do body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 1.5em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Estilo das imagens */
+#status {
+    width: 110px;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Estilo dos campos de input */
+input[type="number"], input[type="text"], input[type="button"], input[type="reset"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+/* Estilo dos botões */
+input[type="button"], input[type="reset"] {
+    background: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover {
+    background: #357abd;
+}
+
+/* Estilo para campos desativados */
+input[disabled] {
+    background: #f0f0f0;
+    color: #999;
+}
+
+/* Adiciona um espaço entre os elementos de formulário */
+p {
+    margin: 10px 0;
+}

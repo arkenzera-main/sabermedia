@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saber Media</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Arquivo de manifesto (instalação do APP)-->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="img/escola.png">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Digite suas notas dos 4 bimestres</h1>
+        <form name="frmMedia">
+            <img src="img/neutro.webp" alt="situação" id="status" class="defaulto">
+            <p></p><input type="number" step="any" name="nota1" id="nota1" placeholder="Nota do 1 bimestre" required max="10"> 
+            <p></p><input type="number" step="any" name="nota2" id="nota2" placeholder="Nota do 2 bimestre" required max="10"> 
+            <p></p><input type="number" step="any" name="nota3" id="nota3" placeholder="Nota do 3 bimestre" required max="10"> 
+            <p></p><input type="number" step="any" name="nota4" id="nota4" placeholder="Nota do 4 bimestre" required max="10"> 
+            <p></p><input type = "button" value="Calcular" onclick="verificar()">
+            <input type="reset" value="Limpar" onclick="limpar()">
+            <p><input type="text" name="txtMedia" placeholder="Resultado" disabled></p>
+            <p><input type="text" name="txtStatus" placeholder="Status" disabled id="status"></p>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+

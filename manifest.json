@@ -1,0 +1,13 @@
+{
+    "name": "SaberMedia",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/escola.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
