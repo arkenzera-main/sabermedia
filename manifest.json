@@ -1,6 +1,6 @@
 {
     "name": "SaberMedia",
-    "start_url": "/",
+    "start_url": "/sabermedia",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
